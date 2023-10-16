@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.VisualScripting;
 
-public class FlowField : MonoBehaviour
+public class FlowField3D : MonoBehaviour
 {
     public GameObject _cam;
     FastNoise _fastNoise;
