@@ -34,7 +34,7 @@ public class FlowField2D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _cam.transform.position = new Vector3(_gridSize.x * _cellSize * 0.5f, _gridSize.y * _cellSize * 0.5f, -100);
+        _cam.transform.position = new Vector3(_gridSize.x * _cellSize * 0.5f, _gridSize.y * _cellSize * 0.5f, -300);
         _fastNoise = new FastNoise();
         _particles = new List<particle>();
 

@@ -318,6 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2059902647}
+  - component: {fileID: 2059902648}
   m_Layer: 0
   m_Name: Flowfield
   m_TagString: Untagged
@@ -334,12 +335,37 @@ Transform:
   m_GameObject: {fileID: 2059902646}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 256.06464, y: -65.859184, z: -126.61932}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2059902648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059902646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edbfba92fb3f413a970c5f1439b52e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cam: {fileID: 1907303209}
+  _gridSize: {x: 100, y: 100}
+  _cellSize: 5
+  _particlePrefab: {fileID: 6964213955125703803, guid: 28a9fb9058a1f46b88731faf7a65c6d8, type: 3}
+  _increment: 2.35
+  _offset: {x: 0, y: 0}
+  _offsetSpeed: {x: -2, y: 3}
+  _particleCount: 100
+  _particles: []
+  _particleScale: 1
+  _particleVelocity: 30
+  _particleRotationSpeed: 150
+  _particleSpawnRadius: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
